@@ -1,0 +1,21 @@
+.section-ortho { padding: 53px 0 35px; background: #fafafa; }
+
+
+.section-ortho .courses-slider .courses__item:before {border-color: transparent !important;}
+
+@media screen and (min-width: 768px) {
+  .section-ortho { margin: 0 0 -238px; padding: 70px 0 247px; position: relative; overflow: hidden; }
+  .section-ortho .uz6 { top: 248px; margin-right: -500px; }
+  .section-ortho h2 { width: 400px; }
+}
+
+@media screen and (min-width: 1024px) {
+
+.section-ortho { padding: 0; margin: 0 0 -265px; margin-bottom: 0; }
+.section-ortho .wrapper { padding: 93px 24px 315px; position: relative;  padding-bottom:0;}
+.section-ortho .wrapper:before, .section-ortho .wrapper:after { top: 0; bottom: 0; width: 1000px; z-index: 11; content: ''; position: absolute; background: #fafafa; left: -1014px; }
+.section-ortho .wrapper:after { left: auto; right: -999px; }
+.section-ortho h2 { width: 500px; }
+.section-ortho .uz6 { top: 242px; margin-right: -361px; }
+
+}
